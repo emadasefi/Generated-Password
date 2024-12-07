@@ -1,21 +1,27 @@
 #!/bin/bash
 
-
 # Colors
 Purple='\033[0;34m'
 Cyan='\033[0;36m'
 Yellow='\033[0;33m'
 NC='\033[0m'
 
-# Greeting
-echo -e "${Purple}============================================="
-echo "Welcome to My Password Generator"
-echo "__author__	=	Emad Asefi <emad.asefi@gmail.com>"
-echo "__copyright__	=	Copyright © 2024"
-echo "__date__	=	'2024-09-19'"
-echo "__license__	=	MIT"
-echo "__version__	=	'1.1.10'"
-echo -e "=============================================${NC}"
+
+# Print the ASCII art and message
+echo -e "
+   ___                                 __  _____                      __          
+  / _ \___ ____ ____    _____  _______/ / / ___/__ ___  ___ _______ _/ /____  ____
+ / ___/ _ \`(_-<(_-< |/|/ / _ \/ __/ _  / / (_ / -_) _ \/ -_) __/ _ \` __/ _ \/ __/
+/_/   \_,_/___/___/__,__/\___/_/  \_,_/  \___/\__/_//_/\__/_/  \_,_/\__/\___/_/   
+                                                                                  
+"
+echo "
+  - Password Generator Script
+  - This Bash script is a simple yet effective password generator that allows users to create secure passwords of a specified length.
+    It supports both Persian and English languages, making it accessible to a wider audience.
+  - v1.1.10 / Emad Asefi  / @emadasefi / emad.asefi@gmail.com / license:MIT
+________________________________________________________________
+"
 
 # سوال از کاربر در رابطه با انتخاب زبان راهنما
 echo -e "${Cyan} Please enter the language Script? (en/fa)${NC}"
